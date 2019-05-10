@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+    
+    <form action="/process" method="post">
+        <p>Your Name:</p>
+            <input name="name" type="text">
+         <p>Dojo Location</p>
+        <select name="localist">
+            <option value="ca">California</option>
+            <option value="se">Seattle</option>
+            <option value="wa">Wahington</option>
+            <option value="sf">Sanfrancisco</option>
+        </select>
+        <p>Favorite Language</p>
+        <select name="lanlist">
+            <option value="js">Javascript</option>
+            <option value="py">Python</option>
+            <option value="c">C#</option>
+            <option value="ruby">Ruby</option>
+        </select>
+        <p>Comment(optional):</p>
+            <textarea name="comment" rows="10" cols="30"></textarea>
+            <br>
+            <button type="submit">submit</button>
+    </form>
+
+</body>
+</html>
